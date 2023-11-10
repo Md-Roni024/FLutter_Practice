@@ -8,15 +8,22 @@ class StartScreen extends StatelessWidget {
     return Center(
       child: Column(
         mainAxisSize: MainAxisSize.min,
+        //Transparency by using color argument
         children: [
-          // Opacity Widget
-          Opacity(
-            opacity: 0.1,
-            child: Image.asset(
-              'assets/images/quiz-logo.png',
-              width: 250,
-            ),
+          Image.asset(
+            'assets/images/quiz-logo.png',
+            width: 250,
+            color: const Color.fromARGB(150, 255, 255, 255),
           ),
+
+          // Opacity Widget
+          // Opacity(
+          //   opacity: 0.6,
+          //   child: Image.asset(
+          //     'assets/images/quiz-logo.png',
+          //     width: 250,
+          //   ),
+          // ),
           const SizedBox(
             height: 50,
           ),
