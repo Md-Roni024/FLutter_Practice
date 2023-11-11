@@ -1,9 +1,9 @@
 import 'package:flutter/widgets.dart';
 
 class QuestionsScreen extends StatefulWidget {
-  QuestionsScreen({super.key});
+  const QuestionsScreen({super.key});
   @override
-  State<StatefulWidget> createState() {
+  State<QuestionsScreen> createState() {
     return _QuestionScreenState();
   }
 }
