@@ -7,7 +7,7 @@ const questions = [
       'Widget',
       'Components',
       'Blocks',
-      'FUnctions',
+      'Functions',
     ],
   ),
   QuizQuestion('How are Flutter UIs built?', [
